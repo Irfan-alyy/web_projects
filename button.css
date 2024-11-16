@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+}
+.button-border{
+    
+    background: linear-gradient(115deg, hsl(5, 81%, 55%),hsl(11, 76%, 71%));
+    padding: 2px;
+    
+   
+}
+.button{
+    border: none;
+    padding: 10px 20px;
+    background-color: #000;
+    color: hsl(0, 0%, 70%);
+    font-family: serif;
+    letter-spacing: 2px;
+   
+}
+.button-border:hover{
+    background: linear-gradient(230deg,  hsl(5, 81%, 55%),hsl(11, 76%, 71%));
+
+}
+.button-border:hover .button{
+    padding: 13px 23px;
+    color: hsl(0, 0%, 100%);
+}

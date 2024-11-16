@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1:after{
+            content: "";
+            animation: 6s swap infinite;
+            background-color: rgb(48, 110, 255);
+            color: white;
+            padding: 10px;
+            margin-left: 10px;
+            border-radius: 4px;
+        }
+        @keyframes swap{
+            0%{
+                content: "Autumn";
+
+            }
+            25%{
+                content: "Coding";
+
+            }
+            
+            75%{
+                content: "SnowFall";
+
+            }
+            100%{
+                content: "Glaciers";
+
+
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> I Like</h1>
+    </div>    
+</body>
+</html>

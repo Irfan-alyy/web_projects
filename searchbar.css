@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 2em;
+}
+.searchbox{
+width: 30%;
+border: 1px solid black;
+border-radius: 3px;
+transition: all .3s;
+
+
+}
+.searchbox:focus{
+    width: 60%;
+    
+    border-color: hsl(206, 100%, 50%);
+    
+}
+.searchbox::placeholder{
+    font-weight: 500;
+}
+.searchbox:focus::placeholder{
+    color: transparent;
+}
